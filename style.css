@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-left: 20px;
+    color:black;
+
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+span{
+
+    padding: 10px;
+    background-color: red;
+}
+li{
+    color: darkblue;
+    padding: 10px 10px 10px 0px;
+    margin: 10px;
+    width:500px;
+    background-color: white;
+}
+.quiz{ 
+    
+    width: 580px;
+    height:260px;
+    margin:150px;
+    margin-left: 500px;
+    background-color: burlywood;
+    padding-top: 10px;
+    box-shadow: inset rgba(0,0,0,0.10);
+}
+.app{
+width: 580px;
+height:280px;
+margin:150px;
+margin-left: 500px;
+background-color: burlywood;
+padding-top: 10px;
+box-shadow: inset rgba(0,0,0,0.10);
+}
+.aoo{
+    width: 580px;
+    height:280px;
+    margin:150px;
+    margin-left: 500px;
+    background-color: burlywood;
+    padding-top: 10px;
+    box-shadow: inset rgba(0,0,0,0.10);
+}
+@media screen and (max-width: 1200px) {
+    .quiz {
+        width: 70%; 
+        margin: 100px auto; 
+    }
+
+    li {
+        width: 100%; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .quiz {
+        width: 90%; 
+        margin: 50px auto;
+        height: auto; 
+    }
+}
